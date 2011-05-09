@@ -22,7 +22,12 @@ public class SearchStreetByNameActivity extends SearchByNameAbstractActivity<Str
 	private RegionAddressRepository region;
 	private City city;
 	private PostCode postcode;
+<<<<<<< HEAD
 	
+=======
+	private OsmandSettings settings;
+	private String oldfilter = "";
+>>>>>>> 7dfefb4... Search countries over the country
 	
 	@Override
 	public AsyncTask<Object, ?, ?> getInitializeTask() {

@@ -1,10 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
 <resources>
+    <string name="incremental_search_street_in_country">Search street incrementally. At least 3 chars. Can take long time!</string>
+        
     <string name="send_files_to_osm">Send GPX files to OSM?</string>
     <string name="gpx_visibility_txt">Visibility</string>
     <string name="gpx_tags_txt">Tags</string>
     <string name="gpx_description_txt">Description</string>
     <string name="validate_gpx_upload_name_pwd">Please specify OSM user name and password to upload GPX files.</string>
+
     
     <string name="default_buttons_support">Support</string>
 	<string name="support_new_features">Support new features</string>
