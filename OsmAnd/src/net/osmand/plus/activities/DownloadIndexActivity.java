@@ -462,7 +462,7 @@ public class DownloadIndexActivity extends OsmandExpandableListActivity {
 			int total = OsmandApplication.getSettings().NUMBER_OF_FREE_DOWNLOADS.get() + entriesToDownload.size();
 			boolean wiki = false;
 			for (DownloadEntry es : entriesToDownload.values()) {
-				if (es.baseName.contains("_wiki")) {
+				if (es.baseName != null && es.baseName.contains("_wiki")) {
 					wiki = true;
 					break;
 				}
